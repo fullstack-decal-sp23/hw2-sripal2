@@ -1,4 +1,5 @@
 /* BEGIN SETUP (you will not need to use these) */
+
 #intro {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -27,11 +28,16 @@ h2 {
   margin-bottom: 5rem;
 }
 
+#white {
+  background-color: white;
+}
+
 .twovert {
   height: 50%;
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -59,6 +65,10 @@ h2 {
 
 /* QUESTION 1 */
 
+.red {
+  background-color: red;
+}
+
 .orange {
   background-color: orange;
 }
@@ -75,7 +85,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -93,16 +103,21 @@ h2 {
 
 /* BEGIN QUESTION 2 */
 
+.thailand-stripes {
+  height: 15%;
+}
+
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: #ffffff;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 40%;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +144,7 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center;
 }
 
 .mexico-red {
@@ -146,15 +161,23 @@ h2 {
   justify-content: center;
 }
 
+.label {
+  color: blue;
+}
+
+.label:hover {
+  color: brown;
+}
+
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
@@ -162,4 +185,5 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 60px;
 }
